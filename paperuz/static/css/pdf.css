@@ -1,0 +1,62 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(247, 245, 245, 0.842);
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    padding-top: 100px;
+}
+
+.price_col {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.box {
+    width: 1200px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    padding: 20px 50px 50px;
+}
+
+.box__logo img {
+    width: 200px;
+}
+
+.box__content {
+    display: flex!important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.box__logo {
+    margin-left: 0px;
+}
+.box__info {
+    margin-left: 500px;
+}
+.box__info p {
+
+}
+
+.box__info span {
+    font-weight: bold;
+}

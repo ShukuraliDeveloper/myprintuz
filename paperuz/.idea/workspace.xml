@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fcc88e56-b139-4652-9fe5-c7a5f34e90e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0002_product_currency.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0005_alter_category_description_alter_category_name_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0006_currency.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0007_rename_currency_currency_currency_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0008_alter_currency_summa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0009_alter_product_currency.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0010_alter_article_options_alter_category_options_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0011_alter_product_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/0012_alter_product_category.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/proccess.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/articles/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/articles/img/MidwestPaperGroup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/articles/img/tg_image_1087810605.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/category/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/category/img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/category/img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/category/img/1_qe5TX6S.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/category/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/category/img/2_NH7uiLu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/category/img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/category/img/3_9VbvJp4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/category/img/3_bt907nd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/category/img/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/category/img/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/category/img/7_Vx5GQJz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/category/img/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/category/img/9_qhH6xFR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/10_Ih5aNGJ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/11_bOSFHx9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/12_zbRBNhu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/2183826.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/2183826_dTVGdcG.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/Progroup1_DtpaF5x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/about_ziH6fWy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/back1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/energy-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/energy-2_NJ1ZzES.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/header3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/photo-1436464224124-bbac0b4e3d50_2GphpWC.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/media/img/tg_image_1087810605.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Courgette-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/LobsterTwo-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/LobsterTwo-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/LobsterTwo-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/LobsterTwo-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-BlackItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-ExtraLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-ExtraLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-MediumItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/Montserrat-ThinItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/Montserrat/OFL.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/pdf.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/styl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/2183826.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/3be840e706c4a8173169002ed64e41ed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/MidwestPaperGroup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/Progroup1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/TOSCOTEC-MEX-TADVISION.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/aboutus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/back1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/back1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/bg0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/csm_foto_startfolie_cd6eb21914.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/energy-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/h5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/header3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/images.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/logotype.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/paper-style-white-monochrome-background_23-2149017129.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/photo-1436464224124-bbac0b4e3d50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/pngtree-hand-drawn-roll-toilet-paper-illustration-image_2299926.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/product-header.15ba08d03b31f3aaf26b6d6440f728d6-e1569655615717.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/tg_image_1087810605.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/unnamed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/bg/wd.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/clents/c2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/clents/c5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/1-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/b1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/b2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/b3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/b4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/h1 (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/h1 (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/h1 (3).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/h1 (4).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/ico1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/ico2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/ico3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/location.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/location_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/mail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/mail_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/phone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/ico/phone_b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/accounting.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/button.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/confirm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/f-icon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/f-icon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/f-icon-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/f-icon-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/f-icon-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/f-icon-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/fast-delivery.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/flabuzb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/flagen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/flagru.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/guarantee.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/ic1 (1).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/ic1 (2).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/ic1 (3).svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/ico1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/ico1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/ico2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/ico3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/ico4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/ico5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/icon1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/icon10.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/icon12.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/icon14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/icon2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/icon3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/icon4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/icon5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/medal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/more.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/more2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/print.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/screwdriver.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/shipped.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/tablet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/telegram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/video-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/icons/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/logo2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/product/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/product/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/product/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/product/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/product/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/product/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/product/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/product/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/product/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/product/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/product/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/img/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/font-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/swiper-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/catalog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pdf/invoice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/pdf/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/price.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/temp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Django projects.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dj_channels_chat/django-channels-chat" beforeDir="false" afterPath="$PROJECT_DIR$/../dj_channels_chat/django-channels-chat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myprintuz" beforeDir="false" afterPath="$PROJECT_DIR$/../myprintuz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../studentsfortest" beforeDir="false" afterPath="$PROJECT_DIR$/../studentsfortest" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27KcBHONt3mb3Bd95RcRA8c4f65" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="C:/Git/students-check" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Django projects\paperuz\static" />
+      <recent name="D:\Django projects\paperuz\static\js" />
+      <recent name="D:\Django projects\paperuz\static\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="paperuz" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcc88e56-b139-4652-9fe5-c7a5f34e90e7" name="Changes" comment="" />
+      <created>1649072080946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649072080946</updated>
+      <workItem from="1649072082149" duration="51000" />
+      <workItem from="1649072171999" duration="527000" />
+      <workItem from="1649072709799" duration="9910000" />
+      <workItem from="1649148816467" duration="7110000" />
+      <workItem from="1649157729648" duration="9930000" />
+      <workItem from="1649220213453" duration="2314000" />
+      <workItem from="1649222575668" duration="14362000" />
+      <workItem from="1649239355104" duration="986000" />
+      <workItem from="1649240405885" duration="545000" />
+      <workItem from="1649240981556" duration="772000" />
+      <workItem from="1649241765452" duration="211000" />
+      <workItem from="1649242086227" duration="1955000" />
+      <workItem from="1649245165645" duration="6421000" />
+      <workItem from="1649265240244" duration="708000" />
+      <workItem from="1649268518232" duration="26000" />
+      <workItem from="1649318134817" duration="1919000" />
+      <workItem from="1649327467220" duration="11627000" />
+      <workItem from="1649356611755" duration="620000" />
+      <workItem from="1649491043636" duration="18424000" />
+      <workItem from="1649568764207" duration="225000" />
+      <workItem from="1649658918673" duration="3508000" />
+      <workItem from="1649667248599" duration="7813000" />
+      <workItem from="1649676131619" duration="4723000" />
+      <workItem from="1649748760427" duration="3291000" />
+      <workItem from="1649786296976" duration="338000" />
+      <workItem from="1649832834293" duration="23000" />
+      <workItem from="1649841418031" duration="15549000" />
+      <workItem from="1649920022667" duration="1699000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

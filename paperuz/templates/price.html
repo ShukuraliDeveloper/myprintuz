@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+
+
+    <body class="container-fluid pl-0 pr-0">
+
+
+    <section class="container-fluid pl-0 pr-0 container-fluid1"
+             style="overflow: hidden; background-size: cover;">
+        <div class="container">
+            <div class="row pt-5 pb-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                    <h1 class="text-center font-weight-bold wow slideInRight"
+                        style="color: #ffffff; border-bottom: #0060AA;">Прайс</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container-fluid pl-0 pr-0 pt-5 pb-5" style="overflow-x: hidden;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                    <table class="table table-active table-bordered table-hover" style="background-color: #ffffff;">
+                        <thead style="background-color: #0060AA; color: #ffffff;">
+                        <tr>
+                            <th>Вид картона</th>
+                            <th>Плотность</th>
+                            <th>Формат</th>
+                            <th>Цена в $/тн</th>
+                            <th>Цена в сумах/кг</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {% for product in categories %}
+                            <tr id="category-section{{ product.id }}">
+                                <td colspan="5"
+                                    style="font-weight: bold; font-size: 16px; background-color: rgb(219, 220, 221);">
+                                    {{ product.name }}
+                                </td>
+                            </tr>
+                            {% for i in product.products.all %}
+                            <tr>
+                                <td>{{ i.name }}</td>
+                                <td>{{ i.density }}</td>
+                                <td>{{ i.format }}</td>
+                                <td>{{ i.price_dol }}</td>
+                                <td>{{ i.currency }}</td>
+
+                            </tr>
+                                {% endfor %}
+                        {% endfor %}
+
+
+
+                        </tbody>
+                    </table>
+                    <form action="" class="text-right">
+                        <a href="{% url 'pdf-export' %}" class="btn btn-success wow slideInLeft"
+                           style="border-radius: 20px; padding: 5px 25px 5px 25px;">Скачать цену</a>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    </body>
+{% endblock %}

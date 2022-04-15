@@ -1,0 +1,310 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <head>
+        <title>Bosh sahifa</title>
+        <script>
+            window.replainSettings = {id: '328a1019-cf35-433c-b4f4-0555e0667585'};
+            (function (u) {
+                let s = document.createElement('script');
+                s.async = true;
+                s.src = u;
+                let x = document.getElementsByTagName('script')[0];
+                x.parentNode.insertBefore(s, x);
+            })('https://widget.replain.cc/dist/client.js');
+        </script>
+
+
+        <style>
+            .swiper-container {
+                width: 100%;
+                overflow: hidden;
+                height: 70vh;
+            }
+
+            .swiper-slide {
+
+                overflow: hidden;
+                width: 100%;
+            }
+
+            @media (max-width: 576px) {
+                .swiper-container {
+                    height: 100%;
+                }
+            }
+
+            input:focus, input:active, input:hover {
+                border: 0 solid #ffffff !important;
+            }
+
+        </style>
+    </head>
+
+    <body class="container-fluid pl-0 pr-0">
+
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide header12 slider1">
+                <div class="carousel-caption text-left ">
+                    <h1 class="font1 pt-5"><span style="color: #00A0E3;">«BaltcellPaper» </span> <br> предлагает самый
+                        широкий ассортимент печатных материалов только высокого качества. </h1>
+
+                </div>
+            </div>
+            <div class="swiper-slide header12 slider2">
+                <div class="carousel-caption text-left">
+                    <h1 class="font1 pt-5">Изготовление на заказ <br> в Ташкенте <span style="color: #00A0E3;">«BaltcellPaper»</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="container-fluid pt-5 pb-5 section-font" style="background-size: contain;">
+    <div class="container pl-0 pr-0">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 text-center">
+                <h4 class="h2 font-weight-bold pb-4" style="color: #0060AA;">Наши преимущества</h4>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center" style="height: 200px;">
+                <img src="{% static 'img/ico/w2.svg' %}" width="80" height="100" alt="">
+                <h6 class="font-weight-bold border-bottom pt-3">Прямые контракты</h6>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center" style="height: 200px;">
+                <img src="{% static 'img/ico/w5.svg' %}" width="80" height="100" alt="">
+                <h6 class="font-weight-bold border-bottom pt-3">Гарантированное качество товара с сертификатом</h6>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center" style="height: 200px;">
+                <img src="{% static 'img/ico/w4.svg' %}" width="80" height="100" alt="">
+                <h6 class="font-weight-bold border-bottom pt-3">Доступные цены</h6>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center" style="height: 200px;">
+                <img src="{% static 'img/ico/w7.svg' %}" width="80" height="100" alt="">
+                <h6 class="font-weight-bold border-bottom pt-3">Постоянное наличие большого ассортимента</h6>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center" style="height: 200px;">
+                <img src="{% static 'img/ico/w1.svg' %}" width="80" height="100" alt="">
+                <h6 class="font-weight-bold border-bottom pt-3">Программа кредитования для постоянных и надёжных клиентов</h6>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 text-center" style="height: 200px;">
+                <img src="{% static 'img/ico/w3.svg' %}" width="80" height="100" alt="">
+                <h6 class="font-weight-bold border-bottom pt-3">Профессионализм менеджеров и бухгалтеров</h6>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+    <section class="container-fluid pl-0 pr-0 about_section">
+        <div class="container ">
+            <div class="row pt-5 pb-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <h2 class="font-weight-bold text-white">О НАС</h2>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow slideInLeft">
+                    <img src="{% static 'img/bg/bg0.jpg' %}" width="70%" height="350" alt="about company image">
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 wow slideInRight">
+                    <h6 class="pb-3 font-weight-normal text-white ">
+                        Baltcell Paper предлагает широкий ассортимент бумаги и картона для
+                        изготовления полиграфической продукции.
+                        Наша компания поставляет, по прямым контрактам,  продукцию из Китая,
+                        России, Белоруссии, Украины и стран Европы, таких брендов как Mondi,
+                        Ilim, Stora Enso, Кама, Holmen, АРР, Chen Ming.
+                    </h6>
+                    <h4 class="text-right"><a href="{% url 'about' %}" class="btn text-white" style="border: 3px solid #ddd; border-radius: 25px;">Подробнее</a></h4>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid pt-5 pb-5" id="product_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 pb-3">
+                    <h3 class="m-auto"
+                        style="border-bottom: 3px solid #0060AA; color: #0060AA; width: 20%; font-weight: bold; padding-bottom: 8px; text-align: center;">
+                        Продукция</h3>
+                </div>
+                {% for product in products %}
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 p-2">
+                        <div class="card p-3">
+                            <img src="{{ product.photo.url }}" width="150" height="150" class="m-auto" alt="">
+                            <h4 class="font-weight-bold h6 pt-3">{{ product.name }}</h4>
+                            <h6 class="small">{{ product.description|slice:"3:150" }}</h6>
+                            <a href="{% url 'price' %}#category-section{{ product.id }}"
+                               class="ml-auto small font-weight-bold"
+                               style="border: 1px solid #0060AA; padding: 5px 10px 5px 10px; border-radius: 35px;">Цена</a>
+                        </div>
+                    </div>
+                {% endfor %}
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 p-3 text-center">
+                    <a href="{% url 'price' %}" class="btn price_btn"
+                       style="border: 1px solid #0060AA; border-radius: 20px; padding: 5px 25px 5px 25px; font-weight: bold;">Узнать
+                        цену !</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container-fluid pl-0 pr-0 howtowork_section">
+        <div class="container pt-5 pb-5">
+            <h3 class="m-auto howtowork_section_title">КАК МЫ РАБОТАЕМ</h3>
+            <div class="row pl-5 pr-5 pt-3 pb-5">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 p-4">
+                    <img src="{% static 'img/ico/1-1.svg' %}" width="100%" class="m-auto" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 p-4">
+                    <img src="{% static 'img/ico/2.svg' %}" width="100%" class="m-auto" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 p-4">
+                    <img src="{% static 'img/ico/3.svg' %}" width="100%" class="m-auto" alt="">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 p-4">
+                    <img src="{% static 'img/ico/4.svg' %}" width="100%" class="m-auto" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid pl-0 pr-0" style=" height: 350px; background-size: cover;">
+        <div class="container pt-5 pb-5 text-center">
+            <h2 class="font-weight-bold pb-3 text-dark">Нам доверяют</h2>
+            <div class="customer-logos ">
+                <div class="slide"><img src="{% static 'img/clents/c5.png' %}" width="250" height="150" alt="photo">
+                </div>
+                <div class="slide" style="padding-top: 40px;"><img src="{% static 'img/clents/c2.png' %}" alt="photo"
+                                                                   width="250" height="50">
+                </div>
+                <div class="slide"><img src="{% static 'img/clents/c5.png' %}" alt="photo" width="250" height="150">
+                </div>
+                <div class="slide" style="padding-top: 40px;"><img src="{% static 'img/clents/c2.png' %}" alt="photo"
+                                                                   width="250" height="50">
+                </div>
+                <div class="slide pt-2"><img src="{% static 'img/logo2.svg' %}" alt="photo" width="250" height="100">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container-fluid pl-0 pr-0 contact_section" style="height: 500px;">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 p-5">
+                    <div class="card wow slideInLeft p-5" style="background-color: #ffffff;">
+                        <h5 class="contact_section_title">КАNTAKT</h5>
+                        <div class="contact_section_icon font-weight-normal pt-3">
+                            <span><i class="fa fa-envelope contact_section_icon_i"></i></span>
+                            info@paperworld.uz
+                        </div>
+                        <!-- <div style="border-bottom: 1px solid #000000; padding: 10px 5px 10px 5px;" class="font-weight-normal pt-3"><img src="img/ico/mail.jpg" width="25" class="mr-2" alt="">info@paperworld.uz</div> -->
+                        <div style="border-bottom: 1px solid #000000; padding: 10px 5px 10px 5px;"
+                             class="font-weight-normal "><span><i class="fa fa-phone"
+                                                                  style="font-size: 20px; color: #0060AA;transform: rotate(90deg); margin-right: 10px;"></i></span>
+                            +998 78 129 00 22
+                        </div>
+                        <!-- <div style="border-bottom: 1px solid #000000; padding: 10px 5px 10px 5px;" class="font-weight-normal "><img src="img/ico/phone.jpg" width="25" class="mr-2" alt=""> +998 78 129 00 22</div> -->
+                        <div style="border-bottom: 1px solid #000000; padding: 10px 5px 10px 5px;"
+                             class="font-weight-normal "><span><i class="fa fa-map"
+                                                                  style="font-size: 20px; color: #0060AA; margin-right: 10px;"></i></span>
+                           Яшнабадский р-н., г.Ташкент, ул. Фаргона Йули,  23
+                        </div>
+                        <!-- <div style="border-bottom: 1px solid #000000; padding: 10px 5px 10px 5px;" class="font-weight-normal "><img src="img/ico/location.jpg" width="25" class="mr-2" alt=""> ул. Фаргона йули, дом 23 , Яшнабадский район 100105, г. Ташкент, Узбекистан</div> -->
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 pt-5 pl-3 pr-3 pb-2" id="contact-section">
+                    <div class="card p-5 wow slideInRight bg-white">
+                        <h5 class=""
+                            style="border-bottom: 3px solid #0060AA; color: #0060AA; width: 55%; font-weight: bold;">
+                            Оставить заявку</h5>
+                        <form method="POST">
+                            {% csrf_token %}
+                            <div style="border-bottom: 1px solid #000;">
+                                <input type="text" class="input-group input_order_name font-weight-normal pt-3 pb-1"
+                                       style="border: none; outline:none;" placeholder="Имя*" name="author" id="">
+                            </div>
+                            <div style="border-bottom: 1px solid #000;">
+                                <input type="text"
+                                       class="input-group font-weight-normal input_order_phone pt-3 pb-1"
+                                       style="border: none; outline:none;"
+                                       placeholder="Телефон*" name="phone" id="">
+                            </div>
+                            <div style="border-bottom: 1px solid #000;">
+                                <textarea name="text" id="" rows="2"
+                                          class="input-group font-weight-normal input_order_message"
+                                          style="border: none; outline:none;
+                                          text-align:left;"
+                                          placeholder="Сообщение*">
+                                </textarea>
+                            </div>
+                            <button type="submit" class="btn btn-warning mt-3" data-toggle="modal"
+                                    data-target="#formApplication">
+                                Отправить
+                            </button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container-fluid p-3" id="">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2997.9486420170247!2d69.3081169!3d41.2882222!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7ed0a9e0621c2a39!2zNDHCsDE3JzE3LjYiTiA2OcKwMTgnMzcuMSJF!5e0!3m2!1sru!2s!4v1649851546511!5m2!1sru!2s"
+                        width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="formApplication" tabindex="-1" role="dialog" aria-labelledby="formApplicationTitle"
+         aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="formApplicationTitle">Форма заявку</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'js/jquery.carousel.js' %}"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+            let mySwiper = new Swiper('.swiper-container', {
+                speed: 1000,
+                spaceBetween: 0,
+                grabCursor: true,
+                autoplay: {
+                    autoplay: true,
+                    delay: 4000,
+                    disableOnInteraction: false
+                }
+            });
+            new WOW().init();
+            AOS.init();
+        </script>
+
+
+    </body>
+{% endblock %}

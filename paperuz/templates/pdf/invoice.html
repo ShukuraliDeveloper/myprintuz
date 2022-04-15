@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+
+</head>
+<body>
+    <div class="box" >
+        <div class="box__content" style="padding-top: 15px; padding-bottom: 15px;">
+            <div class="box__logo" style="position: absolute; top: 140px; left: 55px; ">
+                <img src="https://i.postimg.cc/WzSk3PNc/logo2.png" width="35    0" alt="logo">
+            </div>
+
+            <div class="box__info" style="">
+
+                <p style="font-size: 22px;"> +998 90 919 20 72 / +998 90 189 99 44<span style="padding-left: 8px; padding-right: 8px;">Доллар:</span>{% for c in currency %}{% if c.currency_type == "долларов" %}{{ c.summa }}{% endif %}{% endfor %}</p>
+                <p style="font-size: 22px; padding-top: 8px; padding-bottom: 8px;"> +998 93 555 00 75 / +998 93 550 00 75<span style="padding-left: 8px; padding-right: 8px;">Евро:</span>{% for c in currency %}{% if c.currency_type == "евро" %}{{ c.summa }}{% endif %}{% endfor %}</p>
+                <p style="font-size: 22px;"> Цени указанны с НДС <span>От:</span> 01.04.2022</p>
+
+            </div>
+        </div>
+        <hr>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        №
+                    </th>
+                    <th style="text-transform: uppercase;">
+                        наименование товара
+                    </th>
+                    <th style="text-transform: uppercase;">
+                      Единица измерения
+                    </th>
+                    <th style="text-transform: uppercase;">
+                        Кол-во
+                    </th>
+                    <th style="text-transform: uppercase;">
+                        Цена
+                    </th>
+                    <th style="text-transform: uppercase;">
+                       Сумма
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for product in categories %}
+                <tr>
+                    <td colspan="6" style="font-weight: bold; text-transform: uppercase;">
+                        {{ product.0.name }}
+                    </td>
+                </tr>
+                {% for i in product.0.products.all %}
+                <tr>
+                    <td>
+                        {{ product.1 }}
+                    </td>
+                    <td>
+                        {{ i.name }}
+                    </td>
+                    <td>
+                        {{ i.density }}
+                    </td>
+                    <td>
+                        {{ i.format }}
+                    </td>
+                    <td>
+                        {{ i.price_dol  }}
+                    </td>
+                    <td>
+                       {{ i.price_total }}
+                    </td>
+                </tr>
+            {% endfor %}
+            {% endfor %}
+            </tbody>
+
+        </table>
+
+
+
+
+    </div>
+
+
+
+</body>
+</html>
